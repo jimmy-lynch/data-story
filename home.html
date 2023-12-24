@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <!-- Scripts-->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="body">
+    <div class="article-container">
+        <div class="img-box" >
+            <div class="img">
+                <img class="vim3" src="img/congress.jpeg">
+            </div>
+        </div>
+    </div>
+
+    <div class="article-container">
+        <div class="part">
+            <div class="titlebox">
+                <h1 class="title"> The Inevitable Government Shutdown</h1>
+                <h4 class="subtitle">Since 1976 there have been 21 gaps in government funding, where the federal government can’t access her purse.</h4>
+                <h6 class="author">Written By: James Lynch</p>
+            </div>
+            <p>As another government shutdown dwells, most of the citizenry aren’t aware of the way a government shutdown affects them. Frankly, I’m not certain either. From what I can tell, most people don’t. Minimal research has been done, simply because of the vast range of potential aspects of life it can alter – literally any. </p>
+            <p>What we do know, is that the longer they go on - the worse. </p>
+            <p>The most recent government shutdown was also the longest of all 21 occurrences. For 34 days, starting Dec. 21, 2018, the government was shut down under President Donald Trump. While the second closest shutdown was 13 days shorter, they happen quite frequently.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="v2c" class="visualization"></div>
+        <div class="button-container">
+            <div id="v2button"></div> 
+            <div id="v2button2"></div>
+        </div>
+    </div> 
+
+    <div class="article-container"> 
+        <div class="part">
+            <p>Government shutdowns don’t seem to differ by presidential political party. This makes sense, seeing as Congress is who controls the budget. However, what you may notice is the date of the first government shutdown, 1976.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="v2bc" class="visualization"></div>
+        <div class="button-container">
+            <div class="button" id="v2bbutton"></div>
+            <div id="v2bbutton2"></div>
+        </div>
+    </div>
+
+    <div class="article-container">
+        <div class="part">
+            <p>Besides being unable to read any of the years, you can see that government shutdowns are a relatively new occurrence in our government. No, it’s not because those were the better days or people got along better. Instead, in 1974 a law reimagined the budgeting process, shifting the power from the President to Congress. </p>
+            <p>Was that a good idea? Who am I to say.</p>
+            <p>Will there be good C-Span clips from it? Probably.</p>
+            <p>Will the budget be decided by the original timeline? Maybe once a decade.</p>
+            <p>This switch led to more tense disagreements over how the budgeting should be organized. Political parties even began using shutdowns to try to force the hand of the president (in the instance of the Veto). This worked, especially for 1st term presidents who were concerned about how a shutdown would alter re-election chances.</p>
+            <p>Shutdowns have occurred for various reasons, under different presidents, under different parties, and for varying lengths of time. Since 1976, however, we have had 9 different presidents. 7 of which have had the government shutdown, with a strong potential for Joe Biden to be number 8 – Shoutout to you George W. Bush.</p>
+        </div>
+    </div>
+
+    <div class="article-container">
+        <div class="img-box" >
+            <div class="img">
+                <img class="vim" src="Visualization-3-Instance.png">
+            </div>
+            <div class="img">
+                <img class="vim2" src="Visualization-3-Days.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="article-container">
+        <div class="part">
+            <p>The first visualization scales each instance to the length of the shutdown. The second visualization displays each day the government was shut down, in groups for each shutdown.</p>
+            <p>This abstraction change shows the varying amounts – and in my eyes - concession. The terms that lasted a day must have had instant concessions by the party holding out. While the occurrences that went longer had more contentious parties.</p>
+        </div>
+    </div>  
+    
+    <div class="container">
+        <div id="v1c" class="visualization"></div>
+        <div class="button-container">
+            <div id="v1button"></div>
+        </div>
+    </div>
+
+    <div class="article-container">
+        <div class="part">
+            <p>The numerous amounts of shutdowns since this rule change in 1974 should not be taken lightly. What shocked many in 2013 and 2018, is a more normalized occurrence than originally perceived. I remember thinking the world was going to shut down in 2018 – and to my dismay – that school would still be occurring (even though I went to public school).</p>
+            <p>Strong content from the public with this occurring just leads to cries of “We need to come to a consensus” or “Why can’t we just work for the public”. I, and many others, are tired of these actions from politicians with little action to show.</p>
+            <p>I’m not saying we should revert budgeting to pre-1974 rules. We need to not become familiar with shutdowns. We need to be shocked when we see the government shut down. We need to find a new way to budget. 3 of the last 5 shutdowns are amongst the top 4 longest shutdowns. Soon a shutdown may last 40, 50, or even 60 days – who knows what socioeconomic ripples that could have.</p>
+            <p>All I know is at this rate, I’ll be updating my dataset by the end of the year with the 22nd occurrence.</p>
+            <div class="article-container" id="source">
+                <div class="part">
+                <a class="sources"href="https://www.nytimes.com/2023/09/30/us/politics/previous-government-shutdowns.html">Original Source, News Article & Data</a>
+                <small>Zaveri, M., Gates, G., &amp; Zraick, K. (2023, September 29). A list of the longest government shutdowns in U.S. history. The New York Times. https://www.nytimes.com/2023/09/30/us/politics/previous-government-shutdowns.html </small>
+                <a class="sources"href="https://www.washingtonpost.com/business/2023/10/24/government-shutdown-house-speaker/">Additional Source</a>
+                <small>WP Company. (2023, October 25). Republicans can’t open the house, which could shut down the government. The Washington Post. https://www.washingtonpost.com/business/2023/10/24/government-shutdown-house-speaker/ </small>
+                <small>I scraped the data from the original visualization and put it into a CSV. I also pulled the political party of each president from a quick google / brain search.</small>
+                <small>*** I attempted to argue a counterpoint (albeit the original article wasn’t contentious). </small>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+<script src = "./visualization-1.js"></script>
+<script src = "./visualization-2.js"></script>
+<script src = "./visualization-2b.js"></script>
