@@ -1,6 +1,6 @@
 # Government Shutdown Data Visualization Story
 
-A data visualization story about all of the times the Government Shut down in the United States. Three of the visualizations were made using d3.js, while the other was made in Photoshop. This was completed as an individual assignment for my Visualization Design Methods - Speical Topics course (COMP 590 - Fall 2023).
+A data visualization story about all of the times the Government Shut down in the United States. Three of the visualizations were made using d3.js, while the other was made in Photoshop. This was completed as an individual assignment for my Visualization Design Methods - Special Topics course (COMP 590 - Fall 2023).
 
 [Deployed Link](https://jimmy-lynch.github.io/data-story/)
 
